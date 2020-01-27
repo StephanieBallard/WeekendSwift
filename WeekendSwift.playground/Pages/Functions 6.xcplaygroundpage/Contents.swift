@@ -13,8 +13,10 @@ distance(to: "Wall Drug")
 
 //: ## Challenge
 //: Create a function called `feed` that takes a single String parameter entitled `pet`. However, remove the label for `pet` outside the function. It should return nothing and print out "\(pet) was very hungry and is eating vigorously!" If you have some pets, test the function with each pet you have, otherwise make up some pet names that you wish you had. When calling your function, it should read like `feed("Sparkles")` and use no parameter label.
+func feed(_ pet: String) {
+    print("\(pet) was very hungry and is eating vigorously.")
+}
 
-
-
-
+feed("Autumn")
+feed("Amara")
 //: [Next](@next)

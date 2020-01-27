@@ -22,7 +22,17 @@ add(-5, -5) // -10
 
 //: ## Challenge
 //: Create a function called `calculate` that takes in two unlabeled `Int` parameters named `operandOne` and `operandTwo` and multiplies them. In this case, we want to know if the answer is even or not. You can use `.isMultipleOf(2)` to find out if a number is even or odd. Return a `String` that says "\(result) is even" when it's even, and "\(result) is odd" when odd.
+func calculate(_ operandOne: Int, _ operandTwo: Int) -> String {
+    let result = operandOne * operandTwo
+    if result .isMultiple(of: 2) {
+        return "\(result) is even"
+    } else {
+        return "\(result) is odd."
+    }
+}
 
+calculate(2, 2)
+calculate(3, 3)
 
 
 

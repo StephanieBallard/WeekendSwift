@@ -15,16 +15,18 @@ feed("Puff")
 
 //: ## Challenge
 //: Create a function called `add` that takes in two `Int` parameters named `operandOne` and `operandTwo` and add them together. This time, however, don't print the result, return it as an Int. When calling the function, it should look like `add(1, 3)` which would return `4`. You may uncomment the examples to test your answer.
+func add(_ operandOne: Int, _ operandTwo: Int) -> Int {
+    let sum = operandOne + operandTwo
+        return sum
+}
 
 
-
-
-//add(1, 1) // 2
-//add(4, 5) // 9
-//add(100, 1) // 101
-//add(40, 2) // 42
-//add(-5, 5) // 0
-//add(-5, -5) // -10
+add(1, 1) // 2
+add(4, 5) // 9
+add(100, 1) // 101
+add(40, 2) // 42
+add(-5, 5) // 0
+add(-5, -5) // -10
 
 
 //: [Next](@next)
