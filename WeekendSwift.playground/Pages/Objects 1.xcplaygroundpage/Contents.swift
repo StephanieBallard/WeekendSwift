@@ -9,7 +9,8 @@ struct ToyStoryCharacter {
 	var andysFavorite: Bool
 }
 
-
+let buzz = ToyStoryCharacter(name: "Buzz Lightyear", andysFavorite: true)
+print(buzz)
 
 
 
